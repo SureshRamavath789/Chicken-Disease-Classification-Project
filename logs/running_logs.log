@@ -96,3 +96,203 @@ Source-Age: 0
 [2024-06-13 22:08:55,504: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2024-06-13 22:17:21,676: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-13 22:17:21,680: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-13 22:17:21,682: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-13 22:17:21,683: INFO: common: created directory at: artifacts]
+[2024-06-13 22:17:21,684: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-13 22:17:27,086: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 5570:0848:1BDF60:23BEA0:666B1C78
+Accept-Ranges: bytes
+Date: Thu, 13 Jun 2024 16:47:22 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10231-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1718297243.667829,VS0,VE264
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: cff388440d2ff3c46ad5e34e020dd0128c5ba111
+Expires: Thu, 13 Jun 2024 16:52:22 GMT
+Source-Age: 0
+
+]
+[2024-06-13 22:17:28,080: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-06-14 11:44:30,032: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-14 11:44:30,043: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-14 11:44:30,053: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-14 11:44:30,055: INFO: common: created directory at: artifacts]
+[2024-06-14 11:44:30,056: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-14 11:44:33,653: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: B8FA:098E:21AB73:2C0BE7:666BDFC5
+Accept-Ranges: bytes
+Date: Fri, 14 Jun 2024 06:14:30 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21732-DEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1718345670.769576,VS0,VE995
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 23a16d43e8c49693a3ae99534989080a46539ba0
+Expires: Fri, 14 Jun 2024 06:19:30 GMT
+Source-Age: 1
+
+]
+[2024-06-14 11:44:34,388: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-06-14 11:47:38,088: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-14 11:47:38,099: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-14 11:47:38,103: INFO: common: created directory at: artifacts]
+[2024-06-14 11:47:38,106: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-06-14 11:47:51,297: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-06-14 12:00:02,306: INFO: stage_02_base_model: *******************]
+[2024-06-14 12:00:02,307: INFO: stage_02_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-06-14 12:00:02,310: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-14 12:00:02,312: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-14 12:00:02,312: INFO: common: created directory at: artifacts]
+[2024-06-14 12:00:02,313: ERROR: stage_02_base_model: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config']
+Traceback (most recent call last):
+  File "c:/Users/Suresh/Desktop/Chicken-classification/Chicken-Disease-Classification-Project/src/cnnClassifier/pipeline/stage_02_base_model.py", line 28, in <module>
+    obj.main()
+  File "c:/Users/Suresh/Desktop/Chicken-classification/Chicken-Disease-Classification-Project/src/cnnClassifier/pipeline/stage_02_base_model.py", line 14, in main
+    prepare_base_model_config = config.get_prepare_base_model_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config'
+[2024-06-14 12:04:30,346: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-14 12:04:30,351: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-14 12:04:30,355: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-14 12:04:30,356: INFO: common: created directory at: artifacts]
+[2024-06-14 12:04:30,357: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-14 12:04:33,242: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: B8FA:098E:21AB73:2C0BE7:666BDFC5
+Accept-Ranges: bytes
+Date: Fri, 14 Jun 2024 06:34:30 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21747-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1718346870.078708,VS0,VE315
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 042f8a7dc571e2286312ba7419379b2cd73f8f1f
+Expires: Fri, 14 Jun 2024 06:39:30 GMT
+Source-Age: 0
+
+]
+[2024-06-14 12:04:34,032: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-06-14 12:04:34,035: INFO: main: *******************]
+[2024-06-14 12:04:34,035: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-06-14 12:04:34,040: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-14 12:04:34,045: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-14 12:04:34,047: INFO: common: created directory at: artifacts]
+[2024-06-14 12:04:34,047: ERROR: main: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config']
+Traceback (most recent call last):
+  File "c:/Users/Suresh/Desktop/Chicken-classification/Chicken-Disease-Classification-Project/main.py", line 26, in <module>
+    prepare_base_model.main()
+  File "C:\Users\Suresh\Desktop\Chicken-classification\Chicken-Disease-Classification-Project\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 14, in main
+    prepare_base_model_config = config.get_prepare_base_model_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config'
+[2024-06-14 12:05:45,603: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-14 12:05:45,609: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-14 12:05:45,612: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-14 12:05:45,613: INFO: common: created directory at: artifacts]
+[2024-06-14 12:05:45,614: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-14 12:05:45,615: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2024-06-14 12:05:46,343: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-06-14 12:05:46,343: INFO: main: *******************]
+[2024-06-14 12:05:46,344: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-06-14 12:05:46,346: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-14 12:05:46,347: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-14 12:05:46,348: INFO: common: created directory at: artifacts]
+[2024-06-14 12:05:46,348: ERROR: main: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config']
+Traceback (most recent call last):
+  File "c:/Users/Suresh/Desktop/Chicken-classification/Chicken-Disease-Classification-Project/main.py", line 26, in <module>
+    prepare_base_model.main()
+  File "C:\Users\Suresh\Desktop\Chicken-classification\Chicken-Disease-Classification-Project\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 14, in main
+    prepare_base_model_config = config.get_prepare_base_model_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config'
+[2024-06-14 12:09:30,078: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-14 12:09:30,082: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-14 12:09:30,084: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-14 12:09:30,085: INFO: common: created directory at: artifacts]
+[2024-06-14 12:09:30,086: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-14 12:09:32,600: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: B8FA:098E:21AB73:2C0BE7:666BDFC5
+Accept-Ranges: bytes
+Date: Fri, 14 Jun 2024 06:39:29 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21744-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1718347170.741772,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: b8576634c28470f859e7d39f1108a8f25e33d059
+Expires: Fri, 14 Jun 2024 06:44:29 GMT
+Source-Age: 299
+
+]
+[2024-06-14 12:09:33,266: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-06-14 12:09:33,266: INFO: main: *******************]
+[2024-06-14 12:09:33,267: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-06-14 12:09:33,270: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-14 12:09:33,274: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-14 12:09:33,275: INFO: common: created directory at: artifacts]
+[2024-06-14 12:09:33,276: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-06-14 12:09:33,965: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-06-14 12:09:34,302: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
