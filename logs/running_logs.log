@@ -1042,3 +1042,68 @@ x=======================================================================x]
 [2024-06-14 16:38:57,851: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-06-14 17:03:35,349: INFO: main: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> stage for  Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<]
+[2024-06-14 17:03:35,359: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-14 17:03:35,370: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-14 17:03:35,372: INFO: common: created directory at: artifacts]
+[2024-06-14 17:03:35,373: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-14 17:03:38,401: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 61BC:12A923:2CEB2:357AB:666C0E29
+Accept-Ranges: bytes
+Date: Fri, 14 Jun 2024 11:33:35 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21739-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1718364815.173308,VS0,VE286
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: adb1da9721f7d7a29b0b2bfc8eb583aa7eb02002
+Expires: Fri, 14 Jun 2024 11:38:35 GMT
+Source-Age: 0
+
+]
+[2024-06-14 17:03:39,417: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x========================================================================x]
+[2024-06-14 17:03:39,418: INFO: main: *******************]
+[2024-06-14 17:03:39,419: INFO: main: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> stage for Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<]
+[2024-06-14 17:03:39,426: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-14 17:03:39,432: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-14 17:03:39,433: INFO: common: created directory at: artifacts]
+[2024-06-14 17:03:39,434: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-06-14 17:03:40,853: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-06-14 17:03:41,239: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x=======================================================================x]
+[2024-06-14 17:03:41,240: INFO: main: *******************]
+[2024-06-14 17:03:41,240: INFO: main: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> stage fro Training started <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<]
+[2024-06-14 17:03:41,244: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-14 17:03:41,249: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-14 17:03:41,250: INFO: common: created directory at: artifacts]
+[2024-06-14 17:03:41,253: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-06-14 17:03:41,256: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-06-14 17:03:41,261: INFO: common: created directory at: artifacts\training]
+[2024-06-14 17:04:42,929: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x=======================================================================x]
+[2024-06-14 17:04:42,930: INFO: main: *******************]
+[2024-06-14 17:04:42,930: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-06-14 17:04:42,932: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-14 17:04:42,934: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-14 17:04:42,935: INFO: common: created directory at: artifacts]
+[2024-06-14 17:05:03,446: INFO: common: json file saved at: scores.json]
+[2024-06-14 17:05:03,446: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
